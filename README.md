@@ -1,2 +1,2 @@
 # F.O.E
-Fraktal Engine
+Fraktal OmniEngine
