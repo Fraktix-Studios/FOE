@@ -10,4 +10,4 @@
 |------|---------|
 | Alpha| 0.01    |
 
-> **Please note that the Engine is currently still in _Alpha_, as we are still developing it.**
+> **Please note that the Engine is currently in _Alpha_, as we are still developing it.**
