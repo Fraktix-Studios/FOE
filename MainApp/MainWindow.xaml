@@ -11,7 +11,7 @@
         ResizeMode="CanResizeWithGrip"
         Background="Transparent">
 
-    <Border Background="#121212">
+    <Border Background="#121212" BorderBrush="#FF242424">
         
     </Border>
     
