@@ -43,7 +43,9 @@
                     Margin="12,0,4,0"
                     Width="24"
                     Height="24"
-                    Click="OnMinimiseButtonClick">
+                    Click="OnMinimiseButtonClick"
+                    Background="Transparent"
+                    BorderBrush="Transparent">
                 <Image Source="Images/minimize.png"/>
             </Button>
             <Button Foreground="White"
@@ -52,7 +54,9 @@
                     Margin="4,0,4,0"
                     Width="24"
                     Height="24"
-                    Click="OnMaximiseButtonClick">
+                    Click="OnMaximiseButtonClick"
+                    Background="Transparent"
+                    BorderBrush="Transparent">
                 <Image Source="Images/fullscreen.png"/>
             </Button>
             <Button Foreground="White"
@@ -61,7 +65,9 @@
                     Margin="4,0,12,0"
                     Width="24"
                     Height="24"
-                    Click="OnCloseButtonClick">
+                    Click="OnCloseButtonClick"
+                    Background="Transparent"
+                    BorderBrush="Transparent">
                 <Image Source="Images/close.png"/>
             </Button>
         </StackPanel>
