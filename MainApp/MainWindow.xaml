@@ -8,16 +8,23 @@
         Height="600" 
         Width="920"
         WindowStyle="None"
-        ResizeMode="CanResize"
-        Background="#242424"
-        AllowsTransparency="True">
+        ResizeMode="CanResizeWithGrip"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen">
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="32"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Border Background="#121212" BorderBrush="#FF242424">
+        <Border Background="#121212" 
+                BorderBrush="#242424"
+                Grid.RowSpan="2">
+
+        </Border>
+        <Border Background="#242424" 
+                Grid.Row="0">
 
         </Border>
         <Grid Grid.Row="0">
@@ -31,16 +38,41 @@
                         VerticalAlignment="Center"
                         Grid.Row="0">
             <Button Foreground="White"
-                    Content="Click Me"/>
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Margin="12,0,4,0"
+                    Width="24"
+                    Height="24"
+                    Click="OnMinimiseButtonClick">
+                <Image Source="Images/minimize.png"/>
+            </Button>
+            <Button Foreground="White"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Margin="4,0,4,0"
+                    Width="24"
+                    Height="24"
+                    Click="OnMaximiseButtonClick">
+                <Image Source="Images/fullscreen.png"/>
+            </Button>
+            <Button Foreground="White"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Margin="4,0,12,0"
+                    Width="24"
+                    Height="24"
+                    Click="OnCloseButtonClick">
+                <Image Source="Images/close.png"/>
+            </Button>
         </StackPanel>
         <TextBlock Grid.Row="0"
                    Grid.Column="1"
                    Text="FOE"
-                   FontFamily = "/Fonts/#logoFont"
-                   FontSize="24"
+                   FontFamily = "the dark"
+                   FontSize="18"
                    FontWeight="Normal"
                    Foreground="White"
-                   VerticalAlignment="Center"
-                   HorizontalAlignment="Left"/>
+                   HorizontalAlignment="Left"
+                   Margin="12,4,12,8"/>
     </Grid>
 </Window>

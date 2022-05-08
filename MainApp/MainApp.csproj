@@ -8,10 +8,24 @@
 
   <ItemGroup>
     <None Remove="Fonts\logoFont-Regular.ttf" />
+    <None Remove="Images\box.png" />
+    <None Remove="Images\close.png" />
+    <None Remove="Images\close_fullscreen.png" />
+    <None Remove="Images\fullscreen.png" />
+    <None Remove="Images\fullscreen_exit.png" />
+    <None Remove="Images\minimize.png" />
+    <None Remove="Images\open_in_full.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Fonts\logoFont-Regular.ttf" />
+    <Resource Include="Images\box.png" />
+    <Resource Include="Images\close.png" />
+    <Resource Include="Images\close_fullscreen.png" />
+    <Resource Include="Images\fullscreen.png" />
+    <Resource Include="Images\fullscreen_exit.png" />
+    <Resource Include="Images\minimize.png" />
+    <Resource Include="Images\open_in_full.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,7 +33,6 @@
     <Folder Include="MVVM\View\" />
     <Folder Include="MVVM\Model\" />
     <Folder Include="Theme\" />
-    <Folder Include="Images\" />
   </ItemGroup>
 
 </Project>
