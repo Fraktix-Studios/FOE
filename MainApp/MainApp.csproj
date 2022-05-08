@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Fonts\logoFont.ttf" />
+    <None Remove="Fonts\logoFont-Regular.ttf" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Fonts\logoFont.ttf" />
+    <Resource Include="Fonts\logoFont-Regular.ttf" />
   </ItemGroup>
 
   <ItemGroup>
