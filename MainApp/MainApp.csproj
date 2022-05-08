@@ -7,12 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\logoFont.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\logoFont.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="MVVM\ViewModel\" />
     <Folder Include="MVVM\View\" />
     <Folder Include="MVVM\Model\" />
     <Folder Include="Theme\" />
     <Folder Include="Images\" />
-    <Folder Include="Fonts\" />
   </ItemGroup>
 
 </Project>

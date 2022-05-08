@@ -15,14 +15,15 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="32"/>
-            <RowDefinition MinHeight="32"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         <Border Background="#121212" BorderBrush="#FF242424">
 
         </Border>
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="256"/>
+                <ColumnDefinition Width="128"/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
         </Grid>
         <StackPanel Orientation="Horizontal"
@@ -32,5 +33,14 @@
             <Button Foreground="White"
                     Content="Click Me"/>
         </StackPanel>
+        <TextBlock Grid.Row="0"
+                   Grid.Column="1"
+                   Text="FOE"
+                   FontFamily = "/Fonts/#logoFont"
+                   FontSize="24"
+                   FontWeight="Normal"
+                   Foreground="White"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Left"/>
     </Grid>
 </Window>
