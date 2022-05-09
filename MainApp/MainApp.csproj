@@ -8,24 +8,26 @@
 
   <ItemGroup>
     <None Remove="Fonts\logoFont-Regular.ttf" />
-    <None Remove="Images\box.png" />
+    <None Remove="Images\close-white.png" />
     <None Remove="Images\close.png" />
-    <None Remove="Images\close_fullscreen.png" />
-    <None Remove="Images\fullscreen.png" />
-    <None Remove="Images\fullscreen_exit.png" />
-    <None Remove="Images\minimize.png" />
-    <None Remove="Images\open_in_full.png" />
+    <None Remove="Images\maximise-white.png" />
+    <None Remove="Images\maximise.png" />
+    <None Remove="Images\minimise-white.png" />
+    <None Remove="Images\minimise.png" />
+    <None Remove="Images\restore-white.png" />
+    <None Remove="Images\restore.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Fonts\logoFont-Regular.ttf" />
-    <Resource Include="Images\box.png" />
+    <Resource Include="Images\close-white.png" />
     <Resource Include="Images\close.png" />
-    <Resource Include="Images\close_fullscreen.png" />
-    <Resource Include="Images\fullscreen.png" />
-    <Resource Include="Images\fullscreen_exit.png" />
-    <Resource Include="Images\minimize.png" />
-    <Resource Include="Images\open_in_full.png" />
+    <Resource Include="Images\maximise-white.png" />
+    <Resource Include="Images\maximise.png" />
+    <Resource Include="Images\minimise-white.png" />
+    <Resource Include="Images\minimise.png" />
+    <Resource Include="Images\restore-white.png" />
+    <Resource Include="Images\restore.png" />
   </ItemGroup>
 
   <ItemGroup>
