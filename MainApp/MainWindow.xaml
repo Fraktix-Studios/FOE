@@ -9,9 +9,15 @@
         Width="920"
         WindowStyle="None"
         ResizeMode="CanResizeWithGrip"
-        Background="Transparent"
+        Background="#121212"
         AllowsTransparency="True"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        Window.StateChanged ="Window_StateChanged">
+
+
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="32" ResizeBorderThickness="{x:Static SystemParameters.WindowResizeBorderThickness}" />
+    </WindowChrome.WindowChrome>
 
     <Grid>
         <Grid.RowDefinitions>
@@ -44,10 +50,12 @@
                     Height="24"
                     Click="OnMinimiseButtonClick"
                     Background="Transparent"
-                    BorderBrush="Transparent">
+                    BorderBrush="Transparent"
+                    WindowChrome.IsHitTestVisibleInChrome="True"
+                    RenderOptions.EdgeMode="Aliased">
                 <Image Source="Images/minimise-white.png"
-                       Width="24"
-                       Height="24"
+                       Width="12"
+                       Height="12"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"/>
             </Button>
@@ -58,10 +66,30 @@
                     Height="24"
                     Click="OnMaximiseButtonClick"
                     Background="Transparent"
-                    BorderBrush="Transparent">
+                    BorderBrush="Transparent"
+                    WindowChrome.IsHitTestVisibleInChrome="True"
+                    RenderOptions.EdgeMode="Aliased"
+                    Name="maximizeButton">
                 <Image Source="Images/maximise-white.png"
-                       Width="24"
-                       Height="24"
+                       Width="12"
+                       Height="12"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"/>
+            </Button>
+            <Button HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Margin="4,0,4,0"
+                    Width="24"
+                    Height="24"
+                    Click="OnMaximiseButtonClick"
+                    Background="Transparent"
+                    BorderBrush="Transparent"
+                    WindowChrome.IsHitTestVisibleInChrome="True"
+                    RenderOptions.EdgeMode="Aliased"
+                    Name="restoreButton">
+                <Image Source="Images/restore-white.png"
+                       Width="12"
+                       Height="12"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"/>
             </Button>
@@ -72,10 +100,12 @@
                     Height="24"
                     Click="OnCloseButtonClick"
                     Background="Transparent"
-                    BorderBrush="Transparent">
+                    BorderBrush="Transparent"
+                    WindowChrome.IsHitTestVisibleInChrome="True"
+                    RenderOptions.EdgeMode="Aliased">
                 <Image Source="Images/close-white.png"
-                       Width="24"
-                       Height="24"
+                       Width="12"
+                       Height="12"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"/>
             </Button>
