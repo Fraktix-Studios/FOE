@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Height="600" 
         Width="920"
+        MinHeight="320"
+        MinWidth="640"
         WindowStyle="None"
         ResizeMode="CanResizeWithGrip"
         Background="#121212"
@@ -119,5 +121,53 @@
                    Foreground="White"
                    HorizontalAlignment="Left"
                    Margin="12,4,12,8"/>
+
+
+
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="160"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Border Background="#363636"
+                    Grid.Column="0"
+                    Grid.Row="1">
+                <Grid>
+                    <StackPanel>
+                        <Button Content="Projects"
+                        Foreground="White"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Margin="8,8,8,0"
+                        Background="#242424"
+                        Width="144"
+                        Height="32"
+                        BorderBrush="#121212"/>
+                        <Button Content="Teams"
+                        Foreground="White"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Margin="8,8,8,0"
+                        Background="#242424"
+                        Width="144"
+                        Height="32"
+                        BorderBrush="#121212"/>
+                        <Button Content="Community"
+                        Foreground="White"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Margin="8,8,8,0"
+                        Background="#242424"
+                        Width="144"
+                        Height="32"
+                        BorderBrush="#121212"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+        
+        
+       
     </Grid>
 </Window>
