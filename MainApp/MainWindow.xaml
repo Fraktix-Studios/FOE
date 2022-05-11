@@ -14,7 +14,8 @@
         Background="#121212"
         AllowsTransparency="True"
         WindowStartupLocation="CenterScreen"
-        Window.StateChanged ="Window_StateChanged">
+        Window.StateChanged ="Window_StateChanged"
+        Icon="/Images/foe-icon_minimal.png">
 
 
     <WindowChrome.WindowChrome>
@@ -51,10 +52,9 @@
                     Width="24"
                     Height="24"
                     Click="OnMinimiseButtonClick"
-                    Background="Transparent"
-                    BorderBrush="Transparent"
-                    WindowChrome.IsHitTestVisibleInChrome="True"
-                    RenderOptions.EdgeMode="Aliased">
+                    Background="#363636"
+                    BorderBrush="#121212"
+                    WindowChrome.IsHitTestVisibleInChrome="True">
                 <Image Source="Images/minimise-white.png"
                        Width="12"
                        Height="12"
@@ -67,10 +67,9 @@
                     Width="24"
                     Height="24"
                     Click="OnMaximiseButtonClick"
-                    Background="Transparent"
-                    BorderBrush="Transparent"
+                    Background="#363636"
+                    BorderBrush="#121212"
                     WindowChrome.IsHitTestVisibleInChrome="True"
-                    RenderOptions.EdgeMode="Aliased"
                     Name="maximizeButton">
                 <Image Source="Images/maximise-white.png"
                        Width="12"
@@ -84,10 +83,9 @@
                     Width="24"
                     Height="24"
                     Click="OnMaximiseButtonClick"
-                    Background="Transparent"
-                    BorderBrush="Transparent"
+                    Background="#363636"
+                    BorderBrush="#121212"
                     WindowChrome.IsHitTestVisibleInChrome="True"
-                    RenderOptions.EdgeMode="Aliased"
                     Name="restoreButton">
                 <Image Source="Images/restore-white.png"
                        Width="12"
@@ -101,10 +99,9 @@
                     Width="24"
                     Height="24"
                     Click="OnCloseButtonClick"
-                    Background="Transparent"
-                    BorderBrush="Transparent"
-                    WindowChrome.IsHitTestVisibleInChrome="True"
-                    RenderOptions.EdgeMode="Aliased">
+                    Background="#363636"
+                    BorderBrush="#121212"
+                    WindowChrome.IsHitTestVisibleInChrome="True">
                 <Image Source="Images/close-white.png"
                        Width="12"
                        Height="12"
