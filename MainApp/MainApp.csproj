@@ -11,6 +11,7 @@
     <None Remove="Fonts\logoFont-Regular.ttf" />
     <None Remove="Images\close-white.png" />
     <None Remove="Images\close.png" />
+    <None Remove="Images\foe-icon.png" />
     <None Remove="Images\foe-icon_minimal.png" />
     <None Remove="Images\foe-icon_tiny.png" />
     <None Remove="Images\foe-icon_transparent.png" />
@@ -26,8 +27,8 @@
     <Resource Include="Fonts\logoFont-Regular.ttf" />
     <Resource Include="Images\close-white.png" />
     <Resource Include="Images\close.png" />
+    <Resource Include="Images\foe-icon.png" />
     <Resource Include="Images\foe-icon_minimal.png" />
-    <Resource Include="Images\foe-icon_tiny.png" />
     <Resource Include="Images\foe-icon_transparent.png" />
     <Resource Include="Images\maximise-white.png" />
     <Resource Include="Images\maximise.png" />

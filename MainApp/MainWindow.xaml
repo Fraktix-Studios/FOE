@@ -15,7 +15,8 @@
         AllowsTransparency="True"
         WindowStartupLocation="CenterScreen"
         Window.StateChanged ="Window_StateChanged"
-        Icon="/Images/foe-icon_tiny.png">
+        Icon="/Images/foe-icon.png"
+        SnapsToDevicePixels="True">
 
 
     <WindowChrome.WindowChrome>
@@ -162,6 +163,11 @@
                     </StackPanel>
                 </Grid>
             </Border>
+            <Grid Grid.Column="1">
+                <Viewbox>
+                    
+                </Viewbox>
+            </Grid>
         </Grid>
         
         
